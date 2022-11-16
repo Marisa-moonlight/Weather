@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+*{
+  font-family: 'Concert One', cursive;
+}
+body{
+  background-image: url(sky.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Weatherbox{
+  margin-left: 400px;
+  margin-top: 200px;
+  border: solid gold 10px;
+  padding: 5px;
+  background-color: white;
+  width: 700px;
+  border-radius: 10px;
+}
+.city{
+  float: left;
+}
+.coord{
+  float: right;
+}
+.temp{
+  float: left;
+}
+.press{
+  float: right;
+}
+.deg{
+  float: left;
+}
+.speed{
+  float: right;
+}
